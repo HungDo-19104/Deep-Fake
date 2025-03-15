@@ -1,6 +1,7 @@
 # DeepFake Detection:
 ## Mô tả 
-Dự án này áp dụng mô hình deep learning để xác định tính xác thực của video, phân biệt giữa nội dung thật và deepfake. Quá trình thực hiện bao gồm các bước xử lý dữ liệu video, nhận diện và trích xuất khuôn mặt, huấn luyện mô hình, thực hiện dự đoán và đánh giá hiệu suất hệ thống.## Cấu trúc thư mục
+Dự án này áp dụng mô hình deep learning để xác định tính xác thực của video, phân biệt giữa nội dung thật và deepfake. Quá trình thực hiện bao gồm các bước xử lý dữ liệu video, nhận diện và trích xuất khuôn mặt, huấn luyện mô hình, thực hiện dự đoán và đánh giá hiệu suất hệ thống.
+## Cấu trúc thư mục
 - best_model.pth       # Trọng số của mô hình đã huấn luyện
 - detect_from_video.py # Trích xuất khuôn mặt từ video
 - load_data.py         # Load dữ liệu cho huấn luyện
